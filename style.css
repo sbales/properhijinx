@@ -226,3 +226,163 @@ a:hover
     text-align: right;
 }
 
+.secondary-text
+{
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding-top: 0px;
+    margin: 0px auto 10px;
+    font-size: 1.2em;
+}
+
+.season-title
+{
+    margin-bottom: 0px;
+}
+
+.tabs
+{
+    background: none;
+    color: #F1F2F2;
+    float: left;
+    border: none;
+}
+
+.tabs-title
+{
+    width: 100%;
+    background-color: #5e4532;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+
+.tabs-title > a
+{
+    display: block;
+    line-height: 1;
+    font-size: 0.75em;
+    padding: 20px 7px;
+}
+
+.tabs-content
+{
+    float: right;
+    background-color: #815D42;
+    border: none;
+}
+
+.tabs-title > a:focus, .tabs-title > a[aria-selected='true']
+{
+    background-color: #815D42;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+
+.author
+{
+    padding-left: 5px;
+    font-size: .6em;
+}
+
+.show-title
+{
+    margin-bottom: 2px;
+}
+
+.show-tabs
+{
+    width: 100%;
+}
+
+.tabs-panel
+{
+    padding: 10px;
+    color: #F1F2F2;
+    font-size: .75em;
+}
+
+.tabs-title > a:hover
+{
+    background-color: #815D42;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+
+.publishing
+{
+    text-align: left;
+    line-height: 1.4;
+    padding-bottom: 5px;
+}
+
+.location
+{
+    font-weight: bold;
+    padding-bottom: 5px;
+    line-height: 1.3em;
+}
+
+.date
+{
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: 1.3em;
+    margin-bottom: 5px;
+}
+
+.synopsis
+{
+    font-style: italic;
+    line-height: 1.4em;
+}
+
+h5
+{
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    font-size: 1.25em;
+    line-height: 1em;
+    letter-spacing: -.05em;
+}
+
+.tickets
+{
+    padding: 10px;
+}
+
+.cast
+{
+    width: 100%;
+    line-height: 1.4em;
+    padding-bottom: 5px;
+}
+
+.production-team
+{
+    padding: 10px;
+}
+
+.cost
+{
+    font-size: 1em;
+    line-height: 1.3em;
+}
+
+.disclaimer
+{
+    padding-top: 5px;
+    line-height: 1.4em;
+}
+
+.purchase-tickets
+{
+    font-size: 1em;
+    text-align: center;
+    text-decoration: underline;
+    display: block;
+    padding-top: 3px;
+    font-variant: normal;
+    font-weight: bolder;
+}
+

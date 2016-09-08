@@ -2002,7 +2002,7 @@ h6
 
 a
 {
-    color: #2199e8;
+    color: #580B1E;
     text-decoration: none;
     line-height: inherit;
     cursor: pointer;
@@ -2010,7 +2010,7 @@ a
 
 a:hover, a:focus
 {
-    color: #1585cf;
+    color: #580B1E;
 }
 
 a img
@@ -5120,35 +5120,19 @@ table.hover tr:nth-of-type(even):hover
     float: left;
 }
 
-.tabs-title > a
-{
-    display: block;
-    padding: 1.25rem 1.5rem;
-    line-height: 1;
-    font-size: 0.75rem;
-}
-
 .tabs-title > a:hover
 {
-    background: #fefefe;
-}
-
-.tabs-title > a:focus, .tabs-title > a[aria-selected='true']
-{
-    background: #e6e6e6;
+    background-color: #815D42;
 }
 
 .tabs-content
 {
-    background: #fefefe;
     transition: all 0.5s ease;
-    border: 1px solid #e6e6e6;
-    border-top: 0;
 }
 
 .tabs-content.vertical
 {
-    border: 1px solid #e6e6e6;
+    border: none;
     border-left: 0;
 }
 

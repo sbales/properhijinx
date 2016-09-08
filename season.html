@@ -1,59 +1,233 @@
 <!doctype html>
 <html class="no-js" lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Proper Hijinx Productions</title>
-        <link rel="stylesheet" href="css/foundation.css" />
-        <link rel="stylesheet" href="style.css" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-        <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-        <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-        <link rel="manifest" href="/manifest.json">
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#580b1e">
-        <meta name="theme-color" content="#580b1e">
-        <script src="js/vendor/modernizr.js"></script>
-    </head>
-    <body>
-        <nav data-pgc="nav-bar">
-            <a href="index.html" class="site-logo" data-pg-name="Page Logo"> </a>
-            <div class="row navbar-btns" data-pg-name="Navbar Buttons"> 
-                <a class="button nav-btn">About</a> 
-                <a href="season.html" class="button nav-btn">Season</a> 
-                <a href="#" class="button nav-btn">Photos</a> 
-                <a href="#" class="button nav-btn">Contact</a> 
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proper Hijinx Productions</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#580b1e">
+    <meta name="theme-color" content="#580b1e">
+    <script src="js/vendor/modernizr.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/vendor/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/foundation.min.js"></script>
+</head>
+
+<body>
+    <nav data-pgc="nav-bar">
+        <a href="index.html" class="site-logo" data-pg-name="Page Logo"> </a>
+        <div class="row navbar-btns" data-pg-name="Navbar Buttons"> <a class="button nav-btn">About</a> <a href="season.html" class="button nav-btn">Season</a> <a href="#" class="button nav-btn">Photos</a> <a href="#" class="button nav-btn">Contact</a> </div>
+    </nav>
+    <main class="page-body">
+        <h1 class="season-title">Season</h1> <small class="secondary-text">2016</small>
+        <div class="row collapse">
+            <div class="small-3 medium-3 columns">
+                <ul class="tabs vertical" data-tabs id="tabs_example">
+                    <li class="tabs-title is-active">
+                        <a href="#tab1">
+                            <p class="show-title">Show Title Longer</p>
+                            <p class="author"> by the author</p>
+                        </a>
+                    </li>
+                    <li class="tabs-title">
+                        <a href="#tab2">
+                            <p class="show-title">Show Title Longer</p>
+                            <p class="author"> by the author</p>
+                        </a>
+                    </li>
+                    <li class="tabs-title">
+                        <a href="#tab3">
+                            <p class="show-title">Show Title Longer</p>
+                            <p class="author"> by the author</p>
+                        </a>
+                    </li>
+                    <li class="tabs-title">
+                        <a href="#tab4">
+                            <p class="show-title">Show Title Longer</p>
+                            <p class="author"> by the author</p>
+                        </a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-        <main class="page-body"></main>
-        <footer data-pgc="subscribe-footer">
-            <h6>Subscribe for Updates.</h6>
-            <div class="row" data-pg-name="Subscribe Form">
-                <div class="columns small-12 medium-6 large-6 small-centered"> 
-                    <input type="text" placeholder="Name" class="form-input" required="required" /> 
-                </div>
-                <div class="columns small-centered small-12 large-6 medium-6">
-                    <input type="email" placeholder="Email" class="form-input" required="required" />
-                    <a href="#" class="button form-submit">Submit</a> 
+            <div class="small-9 medium-9 columns">
+                <div class="tabs-content vertical" data-tabs-content="tabs_example">
+                    <div class="tabs-panel is-active" id="tab1">
+                        <div class="row preformance-info" data-pg-name="Performance Info">
+                            <div class="columns medium-6 large-6 small-12">
+                                <p class="publishing">TAB1
+                                    <br> Produced in agreement with Dramatist Play Services</p>
+                                <p class="location">Studio Theatre at the
+                                    <br> Addison Theatre Center
+                                    <br> 15650 Addison Rd, TX</p>
+                                <p class="date">January 28th-30th,
+                                    <br> February 6th @ 7:30
+                                    <br> February 7th @ 2:00</p>
+                                <p class="synopsis">Down on his luck, Eldon Phelps thinks the arrival of television produce Gina Yaweth is a dream come true. A million dollars and a chance to be a star on television? How can you turn that down? But then comes the catch. He’ll be given fame and fortune, but only if he agrees to kill himself on live television. An audience vote will determine his demise- will a compassionate audience save him from an untimely death or will he meet his fate? Tune in to find out in The Dead Guy!</p>
+                            </div>
+                            <div class="columns large-6 medium-6 show-for-small-only show-for-portrait" data-pg-name="Show Poster"> </div>
+                        </div>
+                        <div class="row tickets" data-pg-name="Tickets">
+                            <h5>Tickets</h5>
+                            <p class="cost">General Admission Tickets $12
+                                <br><i>*Credit Card fees may apply*</i></p>
+                            <p class="disclaimer">Tickets are purchased through brown paper tickets.</p> <a href="http://www.brownpapertickets.com/event/2484884" class="purchase-tickets">Click here to purchase tickets.</a> </div>
+                        <div class="row production-team" data-pg-name="Production Info">
+                            <h5>Cast</h5>
+                            <p class="cast"><b>Eldon Phelps:</b> Jeff Burleson
+                                <br><b>Gina Yaweth:</b> Catherine D. DuBord
+                                <br><b>Dougie:</b>Jeff Swearingen
+                                <br><b>Virgil/Security Guard/Leon:</b> Shane Strawbridge
+                                <br><b>Christy/Woman/Nancy:</b> Juliette Talley
+                                <br><b>Roberta/Woman/Sheila:</b> Nicole Denson</p>
+                            <h5>Prouction Team</h5>
+                            <p class="cast">Director: Stefany Cambra
+                                <br> Stage Manager: Katie Brown
+                                <br> Sound Designer: Anne Marie Coleman
+                                <br> Lighting Designer: Jason Foster
+                                <br> Costume Designer: Ryan Schaap</p>
+                        </div>
+                    </div>
+                    <div class="tabs-panel" id="tab2">
+                        <div class="row preformance-info" data-pg-name="Performance Info">
+                            <div class="columns medium-6 large-6 small-12">
+                                <p class="publishing">TAB2
+                                    <br> Produced in agreement with Dramatist Play Services</p>
+                                <p class="location">Studio Theatre at the
+                                    <br> Addison Theatre Center
+                                    <br> 15650 Addison Rd, TX</p>
+                                <p class="date">January 28th-30th,
+                                    <br> February 6th @ 7:30
+                                    <br> February 7th @ 2:00</p>
+                                <p class="synopsis">Down on his luck, Eldon Phelps thinks the arrival of television produce Gina Yaweth is a dream come true. A million dollars and a chance to be a star on television? How can you turn that down? But then comes the catch. He’ll be given fame and fortune, but only if he agrees to kill himself on live television. An audience vote will determine his demise- will a compassionate audience save him from an untimely death or will he meet his fate? Tune in to find out in The Dead Guy!</p>
+                            </div>
+                            <div class="columns large-6 medium-6 show-for-small-only show-for-portrait" data-pg-name="Show Poster"> </div>
+                        </div>
+                        <div class="row tickets" data-pg-name="Tickets">
+                            <h5>Tickets</h5>
+                            <p class="cost">General Admission Tickets $12
+                                <br><i>*Credit Card fees may apply*</i></p>
+                            <p class="disclaimer">Tickets are purchased through brown paper tickets.</p> <a href="http://www.brownpapertickets.com/event/2484884" class="purchase-tickets">Click here to purchase tickets.</a> </div>
+                        <div class="row production-team" data-pg-name="Production Info">
+                            <h5>Cast</h5>
+                            <p class="cast"><b>Eldon Phelps:</b> Jeff Burleson
+                                <br><b>Gina Yaweth:</b> Catherine D. DuBord
+                                <br><b>Dougie:</b>Jeff Swearingen
+                                <br><b>Virgil/Security Guard/Leon:</b> Shane Strawbridge
+                                <br><b>Christy/Woman/Nancy:</b> Juliette Talley
+                                <br><b>Roberta/Woman/Sheila:</b> Nicole Denson</p>
+                            <h5>Prouction Team</h5>
+                            <p class="cast">Director: Stefany Cambra
+                                <br> Stage Manager: Katie Brown
+                                <br> Sound Designer: Anne Marie Coleman
+                                <br> Lighting Designer: Jason Foster
+                                <br> Costume Designer: Ryan Schaap</p>
+                        </div>
+                    </div>
+                    <div class="tabs-panel" id="tab3">
+                        <div class="row preformance-info" data-pg-name="Performance Info">
+                            <div class="columns medium-6 large-6 small-12">
+                                <p class="publishing">TAB3
+                                    <br> Produced in agreement with Dramatist Play Services</p>
+                                <p class="location">Studio Theatre at the
+                                    <br> Addison Theatre Center
+                                    <br> 15650 Addison Rd, TX</p>
+                                <p class="date">January 28th-30th,
+                                    <br> February 6th @ 7:30
+                                    <br> February 7th @ 2:00</p>
+                                <p class="synopsis">Down on his luck, Eldon Phelps thinks the arrival of television produce Gina Yaweth is a dream come true. A million dollars and a chance to be a star on television? How can you turn that down? But then comes the catch. He’ll be given fame and fortune, but only if he agrees to kill himself on live television. An audience vote will determine his demise- will a compassionate audience save him from an untimely death or will he meet his fate? Tune in to find out in The Dead Guy!</p>
+                            </div>
+                            <div class="columns large-6 medium-6 show-for-small-only show-for-portrait" data-pg-name="Show Poster"> </div>
+                        </div>
+                        <div class="row tickets" data-pg-name="Tickets">
+                            <h5>Tickets</h5>
+                            <p class="cost">General Admission Tickets $12
+                                <br><i>*Credit Card fees may apply*</i></p>
+                            <p class="disclaimer">Tickets are purchased through brown paper tickets.</p> <a href="http://www.brownpapertickets.com/event/2484884" class="purchase-tickets">Click here to purchase tickets.</a> </div>
+                        <div class="row production-team" data-pg-name="Production Info">
+                            <h5>Cast</h5>
+                            <p class="cast"><b>Eldon Phelps:</b> Jeff Burleson
+                                <br><b>Gina Yaweth:</b> Catherine D. DuBord
+                                <br><b>Dougie:</b>Jeff Swearingen
+                                <br><b>Virgil/Security Guard/Leon:</b> Shane Strawbridge
+                                <br><b>Christy/Woman/Nancy:</b> Juliette Talley
+                                <br><b>Roberta/Woman/Sheila:</b> Nicole Denson</p>
+                            <h5>Prouction Team</h5>
+                            <p class="cast">Director: Stefany Cambra
+                                <br> Stage Manager: Katie Brown
+                                <br> Sound Designer: Anne Marie Coleman
+                                <br> Lighting Designer: Jason Foster
+                                <br> Costume Designer: Ryan Schaap</p>
+                        </div>
+                    </div>
+                    <div class="tabs-panel" id="tab4">
+                        <div class="row preformance-info" data-pg-name="Performance Info">
+                            <div class="columns medium-6 large-6 small-12">
+                                <p class="publishing">TAB4
+                                    <br> Produced in agreement with Dramatist Play Services</p>
+                                <p class="location">Studio Theatre at the
+                                    <br> Addison Theatre Center
+                                    <br> 15650 Addison Rd, TX</p>
+                                <p class="date">January 28th-30th,
+                                    <br> February 6th @ 7:30
+                                    <br> February 7th @ 2:00</p>
+                                <p class="synopsis">Down on his luck, Eldon Phelps thinks the arrival of television produce Gina Yaweth is a dream come true. A million dollars and a chance to be a star on television? How can you turn that down? But then comes the catch. He’ll be given fame and fortune, but only if he agrees to kill himself on live television. An audience vote will determine his demise- will a compassionate audience save him from an untimely death or will he meet his fate? Tune in to find out in The Dead Guy!</p>
+                            </div>
+                            <div class="columns large-6 medium-6 show-for-small-only show-for-portrait" data-pg-name="Show Poster"> </div>
+                        </div>
+                        <div class="row tickets" data-pg-name="Tickets">
+                            <h5>Tickets</h5>
+                            <p class="cost">General Admission Tickets $12
+                                <br><i>*Credit Card fees may apply*</i></p>
+                            <p class="disclaimer">Tickets are purchased through brown paper tickets.</p> <a href="http://www.brownpapertickets.com/event/2484884" class="purchase-tickets">Click here to purchase tickets.</a> </div>
+                        <div class="row production-team" data-pg-name="Production Info">
+                            <h5>Cast</h5>
+                            <p class="cast"><b>Eldon Phelps:</b> Jeff Burleson
+                                <br><b>Gina Yaweth:</b> Catherine D. DuBord
+                                <br><b>Dougie:</b>Jeff Swearingen
+                                <br><b>Virgil/Security Guard/Leon:</b> Shane Strawbridge
+                                <br><b>Christy/Woman/Nancy:</b> Juliette Talley
+                                <br><b>Roberta/Woman/Sheila:</b> Nicole Denson</p>
+                            <h5>Prouction Team</h5>
+                            <p class="cast">Director: Stefany Cambra
+                                <br> Stage Manager: Katie Brown
+                                <br> Sound Designer: Anne Marie Coleman
+                                <br> Lighting Designer: Jason Foster
+                                <br> Costume Designer: Ryan Schaap</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="medium-4 columns large-4 small-6">
-                    <a href="http://www.steviebales.com"><i class="fa fa-copyright"></i> Design by Stevie Bales</a> 
-                </div>
-                <div class="medium-4 columns large-4 hide-for-small-only"> 
-</div>
-                <div class="medium-4 columns small-6 large-4 socialmedia-bar">
-                    <a href="https://www.facebook.com/properhijinx" target="_blank" class="socialmedia-icon"><i class="fa fa-facebook-square"></i> </a>
-                    <a href="https://twitter.com/ProperHijinx" target="_blank" class="socialmedia-icon"><i class="fa fa-twitter-square"></i> </a>
-                    <a href="https://www.instagram.com/properhijinx/" target="_blank" class="socialmedia-icon"><i class="fa fa-instagram"></i> </a> 
-                </div>
-            </div>
-        </footer>
-        <script src="js/vendor/jquery.min.js"></script>
-        <script src="js/foundation.min.js"></script>
-        <script>
-        $(document).foundation();
-    </script>
-        <script src="js/google-analytics.js" data-pgc-section="Google Analytics Code" data-pg-name="Google Analytics"></script>
-    </body>
+        </div>
+        
+    </main>
+    <footer data-pgc="subscribe-footer">
+        <h6>Subscribe for Updates.</h6>
+        <div class="row" data-pg-name="Subscribe Form">
+            <div class="columns small-12 medium-6 large-6 small-centered">
+                <input type="text" placeholder="Name" class="form-input" required="required" /> </div>
+            <div class="columns small-centered small-12 large-6 medium-6">
+                <input type="email" placeholder="Email" class="form-input" required="required" /> <a href="#" class="button form-submit">Submit</a> </div>
+        </div>
+        <div class="row">
+            <div class="medium-4 columns large-4 small-6"> <a href="http://www.steviebales.com"><i class="fa fa-copyright"></i> Design by Stevie Bales</a> </div>
+            <div class="medium-4 columns large-4 hide-for-small-only"> </div>
+            <div class="medium-4 columns small-6 large-4 socialmedia-bar"> <a href="https://www.facebook.com/properhijinx" target="_blank" class="socialmedia-icon"><i class="fa fa-facebook-square"></i> </a> <a href="https://twitter.com/ProperHijinx" target="_blank" class="socialmedia-icon"><i class="fa fa-twitter-square"></i> </a> <a href="https://www.instagram.com/properhijinx/" target="_blank" class="socialmedia-icon"><i class="fa fa-instagram"></i> </a> </div>
+        </div>
+    </footer>
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+            $(document).ready(function () {
+                $(document).foundation();
+                s
+            })
+        </script>
+    <script src="js/google-analytics.js" data-pgc-section="Google Analytics Code" data-pg-name="Google Analytics"></script>
+</body>
+
 </html>
