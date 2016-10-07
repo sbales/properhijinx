@@ -1,0 +1,18 @@
+//Fonts
+$font-stack: 'Merriweather', serif;
+$title-font-stack: 'Vast-Shadow', cursive;
+
+
+//Colors
+$maroon:#580B1E;
+$mustard:#BF8C2C;
+$cardboard:#815D42;
+$dark-brown:#5e4532;
+$midnight:#231F20;
+$frost: #F1F2F2;
+
+
+@import 'foundation';
+@import 'typography';
+@import 'forms';
+@import 'buttons';
