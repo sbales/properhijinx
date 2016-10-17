@@ -141,3 +141,41 @@ label > [type='radio'] {
 .form-error.is-visible {
     display: block;
 }
+
+.contact-form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.message-send {
+    background-color: transparent;
+    border: 2px solid;
+    padding: 5px 10px;
+}
+
+.message-send:hover {
+    background-color: #815D42;
+}
+.contact-page{
+    min-height: 66vh;
+}
+#contact-form [type='text'], [type='password'], [type='date'], [type='datetime'], [type='datetime-local'], [type='month'], [type='week'], #contact-form [type='email'], [type='number'], [type='search'], [type='tel'], [type='time'], [type='url'], [type='color'], #contact-form textarea{
+    border: 2px solid #580B1E;
+    background-color: transparent;
+    color: #580B1E;
+}
+#contact-form ::-webkit-input-placeholder {
+   color: rgba(88, 11, 30, 0.5);
+}
+
+#contact-form :-moz-placeholder { /* Firefox 18- */
+   color: rgba(88, 11, 30, 0.5);  
+}
+
+#contact-form ::-moz-placeholder {  /* Firefox 19+ */
+   color: rgba(88, 11, 30, 0.5);  
+}
+
+#contact-form :-ms-input-placeholder {  
+   color: rgba(88, 11, 30, 0.5);  
+}

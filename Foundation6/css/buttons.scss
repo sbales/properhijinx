@@ -489,3 +489,40 @@
         margin-right: 0;
     }
 }
+
+.nav-btn {
+    background-color: transparent;
+    font-family: Merriweather, serif;
+    color: #bf8c2c;
+    font-size: 85%;
+    line-height: 1;
+    font-weight: 700;
+    margin: 0px auto;
+    text-transform: uppercase;
+    padding-right:3%;
+    padding-left: 3%;
+    
+    @media (min-width:1024px){
+        font-size: 100%;
+    }
+}
+.nav-btn:hover {
+    color: #815D42;
+    background: none;
+}
+
+.navbar-btns {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    position: fixed;
+    z-index: 4;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    background: #580B1E;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+}

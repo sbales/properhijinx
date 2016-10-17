@@ -32,7 +32,8 @@ html {
    */
 
 body {
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 
@@ -2317,13 +2318,10 @@ body {
 .tabs-content {
     background: $frost;
     transition: all 0.5s ease;
-    border: 1px solid #e6e6e6;
-    border-top: 0;
 }
 
 .tabs-content.vertical {
-    border: 1px solid #e6e6e6;
-    border-left: 0;
+
 }
 
 .tabs-panel {
@@ -2927,6 +2925,7 @@ table.hover tr:nth-of-type(even):hover {
 .orbit-slide {
     width: 100%;
     max-height: 100%;
+    min-height: 150px;
 }
 
 .orbit-slide.no-motionui.is-active {
@@ -2961,7 +2960,7 @@ table.hover tr:nth-of-type(even):hover {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    z-index: 10;
+    z-index: 2;
     padding: 1rem;
     color: $frost;
 }
@@ -2991,8 +2990,8 @@ table.hover tr:nth-of-type(even):hover {
 
 .orbit-bullets {
     position: relative;
-    margin-top: 0.8rem;
-    margin-bottom: 0.8rem;
+    margin-top: -2rem;
+    margin-bottom: 2rem;
     text-align: center;
 }
 
