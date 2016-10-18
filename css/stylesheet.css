@@ -4368,11 +4368,11 @@ body {
 
 .site-logo {
   width: 10%;
-  background-image: url("../img/brand/mobile-site-logo.svg")
+  background-image: url("/img/brand/mobile-site-logo.svg")
   background-repeat: no-repeat;
   position: fixed;
   height: 10%;
-  z-index: 5;
+  z-index: 100;
   top: 0; }
   @media (min-width: 1024px) {
     .site-logo {
