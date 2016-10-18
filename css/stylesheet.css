@@ -4306,7 +4306,7 @@ body {
   background-repeat: repeat;
   background-position: center;
   padding: 0px;
-  font-family: 'Merriweather', serif;
+  font-family: Merriweather, serif;
   color: #580B1E;
   font-size: 1em;
   line-height: 1.4em; }
@@ -4368,7 +4368,7 @@ body {
 
 .site-logo {
   width: 10%;
-  background-image: url("../img/brand/mobile-site-logo.svg");
+  background-image: url("/img/brand/mobile-site-logo.svg")
   background-repeat: no-repeat;
   position: fixed;
   height: 10%;
