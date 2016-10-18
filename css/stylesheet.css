@@ -4302,7 +4302,7 @@ table.hover tr:nth-of-type(even):hover {
 
 body {
   margin: 0px;
-  background-image: url("/img/brand/cardboard-tile.jpg");
+  background-image: url("img/brand/cardboard-tile.jpg");
   background-repeat: repeat;
   background-position: center;
   padding: 0px;
@@ -4368,7 +4368,7 @@ body {
 
 .site-logo {
   width: 10%;
-  background-image: url("/img/brand/mobile-site-logo.svg");
+  background-image: url("img/brand/mobile-site-logo.svg")
   background-repeat: no-repeat;
   position: fixed;
   height: 10%;
