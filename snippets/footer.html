@@ -1,0 +1,39 @@
+<div id="footer">
+    <div class="row" id="subscribe-form">
+        <h6>Subscribe for Updates.</h6>
+        <cms:form enctype="multipart/form-data" method="post" class="k_form">
+            <div class="row">
+                <cms:if k_success>
+                    <div class="k_successmessage">
+                        <cms:send_mail from='www.properhijinx.com' to='K_EMAIL_TO' subject='New Subscriber'> You have a new subscriber to Proper Hijinx:
+                            <cms:show k_success /> </cms:send_mail>
+                        <h6 class='white'>You are Subscribed!</h6></div>
+                </cms:if>
+                <cms:if k_error>
+                    <div class="k_errormessage">
+                        <ul>
+                            <cms:each k_error>
+                                <li>
+                                    <cms:show item /> </li>
+                            </cms:each>
+                        </ul>
+                    </div>
+                </cms:if>
+            </div>
+            <div class="row">
+                <div class="columns small-12 medium-5 large-6 ">
+                    <cms:input type="text" name="name" label="Name" placeholder="Name" required='1' validator='min_len=3' /> </div>
+                <div class="columns small-centered small-12 medium-7 large-6 ">
+                    <cms:input type="text" name="email" label='Email' placeholder="Email" validator='email' required='1' />
+                    <input class="button form-submit" type="submit" name="Submit" value="SUBMIT"> </div>
+            </div>
+        </cms:form>
+    </div>
+    <div class="row">
+        <cms:pages masterpage='global-settings.php'>
+            <div class="medium-4 columns large-4 small-6"> <a href="#" class="no-hover no-margin no-padding"><i class="fa fa-copyright"></i> Proper Hijinx Productions <cms:show copyright_year />.</a><br><a href="http://www.steviebales.com">Design by Stevie Bales</a> </div>
+            <div class="medium-4 columns large-4 hide-for-small-only"> </div>
+            <div class="medium-4 columns small-6 large-4 socialmedia-bar"> <a href="https://www.facebook.com/properhijinx" target="_blank" class="socialmedia-icon"><i class="fa fa-facebook-square"></i> </a> <a href="https://twitter.com/ProperHijinx" target="_blank" class="socialmedia-icon"><i class="fa fa-twitter-square"></i> </a> <a href="https://www.instagram.com/properhijinx/" target="_blank" class="socialmedia-icon"><i class="fa fa-instagram"></i> </a> </div>
+        </cms:pages>
+    </div>
+</div>

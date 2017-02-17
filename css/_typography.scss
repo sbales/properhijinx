@@ -367,28 +367,32 @@ a:hover {
 .author {
     padding-left: 5px;
     font-size: 60%;
+    @media (min-width:40em){
+            font-size: 90%;
+            margin: auto auto 3% 6%;
+        }
 }
 
-.publishing {
+.publishing p {
     text-align: left;
     line-height: 1.4;
     padding-bottom: 5px;
 }
 
-.location {
+.location p {
     font-weight: bold;
     padding-bottom: 5px;
     line-height: 1.3em;
 }
 
-.date {
+.date p {
     font-weight: bold;
     font-size: 1.2em;
     line-height: 1.3em;
     margin-bottom: 5px;
 }
 
-.synopsis {
+.synopsis p {
     font-style: italic;
     line-height: 1.4em;
 }
@@ -407,7 +411,7 @@ a:hover {
     padding: 10px;
 }
 
-.cost {
+.cost p {
     font-size: 1em;
     line-height: 1.3em;
 }
@@ -442,4 +446,8 @@ a .maroon:hover {
 }
 .no-max-width{
     max-width: none !important;
+}
+.show-info a {
+    font-size: 100%;
+    text-decoration: underline;
 }

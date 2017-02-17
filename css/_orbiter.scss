@@ -1,0 +1,99 @@
+.orbit {
+    height: 100%;
+    min-height: 100%;
+    position: relative;
+}
+.orbit-container {
+    position: relative;
+    margin: 0;
+    overflow: hidden;
+    list-style: none;
+    width: 100%;
+}
+.orbit-slide {
+    width: 100%;
+    height: 100%;
+}
+.orbit-slide.no-motionui.is-active {
+    top: 0;
+    left: 0;
+}
+.orbit-figure {
+    margin: 0;
+}
+
+ .orbit-image {
+        min-width: 100%;
+        min-height: 100%;
+        object-fit: cover;
+}
+.orbit-bullets {
+    position: relative;
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.orbit-bullets button {
+    width: .7em;
+    height: .7em;
+    margin-bottom: 0px;
+    padding: 0px;
+    background-color: $maroon;
+    border-radius: 50%;
+}
+.orbit-bullets button.is-active{
+    background-color: $frost;
+}
+.orbit-caption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 0;
+    color: $frost;
+    background-color: rgba(10, 10, 10, 0.5);
+}
+
+.orbit-previous,
+.orbit-next {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 2;
+    padding: 1rem;
+    color: $frost;
+}
+[data-whatinput='mouse'] .orbit-previous,
+[data-whatinput='mouse'] .orbit-next {
+    outline: 0;
+}
+
+.orbit-previous:hover,
+.orbit-next:hover,
+.orbit-previous:active,
+.orbit-next:active,
+.orbit-previous:focus,
+.orbit-next:focus {
+    background-color: rgba(10, 10, 10, 0.5);
+}
+
+.orbit-previous {
+    left: 0;
+}
+
+.orbit-next {
+    left: auto;
+    right: 0;
+}
+[data-whatinput='mouse'] .orbit-bullets {
+    outline: 0;
+}
+.nav-bullets {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    position: static;
+    background-color: transparent;
+}

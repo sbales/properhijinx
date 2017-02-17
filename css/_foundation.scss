@@ -1768,6 +1768,7 @@ input:checked + label > .switch-inactive {
 }
 
 .title-bar {
+    text-align: center;
     background: #0a0a0a;
     color: $frost;
     padding: 0.5rem;
@@ -2254,7 +2255,6 @@ body {
 .tabs {
     margin: 0;
     list-style-type: none;
-    background: $frost;
     border: 1px solid #e6e6e6;
 }
 
@@ -2295,9 +2295,7 @@ body {
     background: #6a0d24;
 }
 
-.tabs-title {
-    float: left;
-}
+
 
 .tabs-title > a {
     display: block;
@@ -2316,18 +2314,12 @@ body {
 }
 
 .tabs-content {
-    background: $frost;
     transition: all 0.5s ease;
 }
 
-.tabs-content.vertical {
 
-}
 
-.tabs-panel {
-    display: none;
-    padding: 1rem;
-}
+
 
 .tabs-panel.is-active {
     display: block;
@@ -2911,109 +2903,7 @@ table.hover tr:nth-of-type(even):hover {
     padding-top: 0;
 }
 
-.orbit {
-    position: relative;
-}
 
-.orbit-container {
-    position: relative;
-    margin: 0;
-    overflow: hidden;
-    list-style: none;
-}
-
-.orbit-slide {
-    width: 100%;
-    height: 100%;
-}
-
-.orbit-slide.no-motionui.is-active {
-    top: 0;
-    left: 0;
-}
-
-.orbit-figure {
-    margin: 0;
-}
-
- .orbit-image {
-        min-width: 100%;
-        min-height: 100%;
-        object-fit: cover;
-     
-    }
-
-.orbit-caption {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    padding: 1rem;
-    margin-bottom: 0;
-    color: $frost;
-    background-color: rgba(10, 10, 10, 0.5);
-}
-
-.orbit-previous,
-.orbit-next {
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    z-index: 2;
-    padding: 1rem;
-    color: $frost;
-}
-
-[data-whatinput='mouse'] .orbit-previous,
-[data-whatinput='mouse'] .orbit-next {
-    outline: 0;
-}
-
-.orbit-previous:hover,
-.orbit-next:hover,
-.orbit-previous:active,
-.orbit-next:active,
-.orbit-previous:focus,
-.orbit-next:focus {
-    background-color: rgba(10, 10, 10, 0.5);
-}
-
-.orbit-previous {
-    left: 0;
-}
-
-.orbit-next {
-    left: auto;
-    right: 0;
-}
-
-.orbit-bullets {
-    position: relative;
-    margin-top: -2rem;
-    margin-bottom: 2rem;
-    text-align: center;
-}
-
-[data-whatinput='mouse'] .orbit-bullets {
-    outline: 0;
-}
-
-.orbit-bullets button {
-    width: 1.2rem;
-    height: 1.2rem;
-    margin: 0.1rem;
-    background-color: #cacaca;
-    border-radius: 50%;
-}
-
-.orbit-bullets button:hover {
-    background-color: #8a8a8a;
-}
-
-.orbit-bullets button.is-active {
-    background-color: #8a8a8a;
-}
 
 .thumbnail {
     border: solid 4px $frost;

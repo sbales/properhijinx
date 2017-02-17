@@ -62,10 +62,16 @@
     }
     
     .page-body {
-        margin: 0px auto -17vh auto;
-        padding: 40px 0px 40px 0px;
-        width: 85%;
+        margin: 10px auto 10px auto;
+        padding: 4% 0px 4% 0px;
+        width: 95%;
         min-height: 85%;
+        
+        @media (min-width: 40em){
+            width: 85%;
+            margin: 20px auto 10px auto;
+            
+        }
     }
     
     .page-body:after {
@@ -85,6 +91,7 @@
         height: 10%;
         z-index: 100;
         top: 0;
+        margin-top: 5px;
         @media (min-width: 1024px) {
             height: 100px;
             width: 100px;
@@ -145,9 +152,13 @@
     
     .tabs-title {
         width: 100%;
+        height: 100%;
+        float: left;
         background-color: #5e4532;
         border-top-left-radius: 1em;
         border-bottom-left-radius: 1em;
+        display: flex;
+        justify-content: center;
     }
     
     .tabs-title > a {
@@ -159,7 +170,7 @@
     
     .tabs-content {
         float: right;
-        background-color: #815D42;
+        background-color: $cardboard;
         border-color: $cardboard;
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
@@ -175,6 +186,11 @@
     
     .show-title {
         margin-bottom: 2px;
+        
+        @media (min-width:40em){
+            font-size: 110%;
+            margin: auto auto 3% 3%;
+        }
     }
     
     .show-tabs {
@@ -182,9 +198,10 @@
     }
     
     .tabs-panel {
-        padding: 10px;
+        padding: 3%;
         color: $frost;
         font-size: .75em;
+        display: none;
     }
     
     .tabs-title > a:hover {
@@ -214,4 +231,12 @@
 }
 .small-gallery{
     min-height: 50%;
+}
+.table-cell{
+    display: table-cell;
+    vertical-align: middle;
+}
+.show-banner{
+    width: 100%;
+    margin-bottom: 20px;
 }
